@@ -5,7 +5,6 @@ import json
 import logging
 logging.getLogger().setLevel(logging.INFO)
 
-import config
 from pyfcm import FCMNotification
 app = Flask(__name__)
 CORS(app)
