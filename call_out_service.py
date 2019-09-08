@@ -21,7 +21,7 @@ def call2clients(registration_ids):
 @app.route("/pizza/call", methods=["POST"])
 def call():
     if request.method == 'POST':
-        registration_ids = ['eIKn6CD8Le4:APA91bH-JTx4czZH2kouyiiinjV3EcnbBjBX2EdDdNwdlHYKq1M9zUkTIKckYqoz6flhdil-r3eovb-uhZiD9ZU8MPSJuie4dM2i_kVxlD7Gr_vHWy4Sa0aYSfIbs8ViWhWsufoP64xk']
+        registration_ids = ['enDlNzW05C4:APA91bHdti1IsAnj1PguzyXBoDExhE0Z_wHERZD5fYS6Lcc-PyXpf6tV2AONBjwp7keHfqvemSHLs7QSIyQ8eQhzd37AyK5nOkr16bQmyQ4Xk8iHxFQZB19fbvO793DUr_-MOsJJJfmq']
         call2clients(registration_ids)
     return json.dumps({
         'error_code': 0,
